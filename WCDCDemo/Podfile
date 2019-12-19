@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+
+project 'WCDCDemo'
+source 'https://github.com/CocoaPods/Specs.git'
+workspace 'WCDCDemo'
+use_frameworks!
+
+target 'WCDCDemo' do
+
+pod 'WCDB'
+pod 'Masonry'
+pod 'Toast', '~> 4.0.0'
+pod 'YYModel'
+   
+end
